@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import Head from 'next/head'
-import '../styles/globals.css'
+import '@styles/globals.scss'
 
 const getDefaultLayout: FC<any> = (page: FC) => <>{page}</>
 

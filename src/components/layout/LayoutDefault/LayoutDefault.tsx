@@ -1,7 +1,7 @@
 import { FC } from 'react'
 
 const LayoutDefault: FC<{ children: any }> = ({ children }) => {
-  return <>{children}</>
+  return <main>{children}</main>
 }
 
 export const getLayout = (page: FC) => {
