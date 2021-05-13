@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { getLayout } from '@components/layout/LayoutDefault/LayoutDefault'
 
-export default function Home() {
+const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -67,3 +68,7 @@ export default function Home() {
     </div>
   )
 }
+
+;(Home as any).getLayout = getLayout
+
+export default Home
