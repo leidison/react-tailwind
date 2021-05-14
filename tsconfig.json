@@ -22,6 +22,12 @@
       "@config/*": [
         "config/*"
       ],
+      "@core/*": [
+        "src/core/*"
+      ],
+      "@helpers/*": [
+        "src/core/helpers/*"
+      ],
       "@store/*": [
         "src/store/*"
       ],
